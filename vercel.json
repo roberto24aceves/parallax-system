@@ -3,8 +3,7 @@
         "src": "config/wsgi.py",
         "use": "@ardnt/vercel-python-wsgi",
         "config": { "maxLambdaSize": "15mb",
-                    "requirements": "requirements.txt",
-                    "pythonVersion": "3.9"}
+                    "runtime": "python3.9" }
     }],
     "routes": [
         {
